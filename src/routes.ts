@@ -25,9 +25,9 @@ const routes = express.Router()
 // const empresaController = new EmpresaController()
 
 
-routes.get('/a-empresa/modelo-de-negocios', getModeloDeNegocios)
-routes.get('/a-empresa/sustentabilidade', getSustentabilidade)
-routes.get('/a-empresa/nossa-historia', getNossaHistoria)
+routes.get('/pt/a-empresa/modelo-de-negocios', getModeloDeNegocios)
+routes.get('/pt/a-empresa/sustentabilidade', getSustentabilidade)
+routes.get('/pt/a-empresa/nossa-historia', getNossaHistoria)
 // routes.post('/a-empresa', )
 // routes.put('/a-empresa/:page_name', )
 // routes.delete('/a-empresa/:page_name', )
