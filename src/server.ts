@@ -1,13 +1,14 @@
 /* eslint-disable import/no-duplicates */
-
 import express, { Request, Response } from 'express'
+import routes from './routes'
 
 const app = express()
 
-const port = 3000
+const port = 3001
 
+app.use(routes)
 app.get('/', (request: Request, response: Response) => {
-  response.send('Server running!')
+  response.send('Hello World!')
 })
 
 app.listen(port, () => {
